@@ -8175,6 +8175,7 @@
 	function preRenderWidget(name) {
 	  var _this = this;
 
+	  console.log(123);
 	  return new Promise(function (resolve) {
 	    var bodyWidget = "".concat(name, "__body");
 
