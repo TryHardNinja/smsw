@@ -8209,15 +8209,6 @@
 	      preRenderWidget.call(_this, 'smsru-widget').then(function (target) {
 	        renderWidget(target);
 	      });
-	      /*this.render_template({
-	          caption: {
-	              class_name: 'smsru-widget',
-	              html: ''
-	          },
-	          body: '',
-	          render: `<div class="smsru-widget__body"></div>`
-	      });*/
-
 	      return true;
 	    },
 	    init: function init() {
