@@ -8203,7 +8203,6 @@
 	var widget = function widget() {
 	  var _this = this;
 
-	  var self = this;
 	  var system = self.system;
 	  this.callbacks = {
 	    render: function render() {
