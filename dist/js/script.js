@@ -8175,7 +8175,6 @@
 	function preRenderWidget(name) {
 	  var _this = this;
 
-	  console.log(123);
 	  return new Promise(function (resolve) {
 	    var bodyWidget = "".concat(name, "__body");
 
@@ -8192,7 +8191,7 @@
 	  });
 	}
 	function renderWidget(target) {
-	  //console.log(WidgetBody);
+	  console.log(123);
 	  new Vue({
 	    el: target,
 	    render: function render(h) {
